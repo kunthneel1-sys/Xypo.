@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xypo</title>
+    <link rel="stylesheet" href="read.css">
+
+    <script>src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js" </script>
+</head>
+<body>
+  
+   <nav id="sideNav">
+    <ul>
+        <li><a href="index.html#header">HOME</a></li>
+        <li><a href="index.html#about">ABOUT US</a></li>
+        <li><a href="index.html#features">FEATURES</a></li>
+        <li><a href="index.html#courses">COURSES</a></li>
+        <li><a href="index.html#offer">OFFER</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+    </ul>
+   </nav>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSiI88H1OxjpgEd9Xx4O6otiww97H8rZXnI_F8jl8SaA&s=10" id="menuBtn">
+
+   <section id="readmore">
+    <h1>Read More</h1>
+    <p>Aliquam iaculis orci vitae dolor venenatis, quis molestie nibh commodo. Ut vestibulum magna at nisi porttitor, ac laoreet dolor mollis.<br> Duis elementum mattis lorem, at feugiat mauris tempor ac. In in tristique metus.<br> Donec scelerisque lacus nulla, eu venenatis ligula dictum eget. Aenean elementum<br> molestie pharetra. Maecenas sollicitudin nibh et justo efficitur egestas. <br>In eget est semper orci finibus ultrices. Suspendisse ex dui, molestie consectetur<br> dolor vitae, rutrum imperdiet lorem. Sed gravida, massa non faucibus malesuada,<br> mi sapien mollis lectus, vitae luctus diam enim imperdiet mauris. Donec urna nibh,<br> feugiat sit amet consequat eget, sollicitudin ac enim. Integer dignissim<br> maximus felis sed varius. Quisque cursus pellentesque nunc et faucibus. In accumsan<br> auctor rhoncus. Morbi elementum euismod quam, quis egestas risus venenatis quis.<br> Ut non dolor mi.</p>
+   </section>
+    <!-- Footer -->
+
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Product</h4>
+                        <small>Our Plan</small><br>
+                        <small>Free Trial</small>
+                    </div>
+                     <div class="link-title">
+                        <h4>About Us</h4>
+                        <small>Request Demo</small><br>
+                        <small>FAQs</small>
+                    </div>
+                     <div class="link-title">
+                        <h4>Support</h4>
+                        <small>Features</small><br>
+                        <small>Contact Us</small>
+                    </div>
+                     <div class="link-title">
+                        <h4>Explore</h4>
+                        <small>Find a nonprofit</small><br>
+                        <small>Coporate Solution</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                 <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>support@Xypo.com</small><br>
+                        <small>copyright 2026 Xypo</small>
+                    </div>
+                    <div class="footer-logo">
+                        <img src="https://kalisetti-dileep.github.io/js/logo.png">
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!--social-icons-->
+
+    <div class="social-icons">
+        <img src="https://w7.pngwing.com/pngs/752/373/png-transparent-computer-icons-facebook-logo-facebook-logo-fine-art-thumbnail.png"width="50px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WD2r948BF3Zo5M9NXyak0BOiU07OyR3whEhJeKKbcbrhQy5h-1Bwv2s&s=10"width="50px">
+        <img src="https://images.seeklogo.com/logo-png/31/1/twitter-logo-png_seeklogo-318424.png"width="50px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQACFeNtIV0QIETXPAeFhMIHAYhBX8pVsaTJ2wD-gMjcQGcfmm5rTzWMgI4&s=10"width="50px">
+    </div>
+
+
+   <script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function(){
+        if( sideNav.style.right == "-250px"){
+             sideNav.style.right = "0";
+        }
+        else{
+             sideNav.style.right = "-250px";
+        }
+    }
+       var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 300
+});
+
+   </script>
+
+	
+
+</body>
+</html>
